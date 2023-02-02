@@ -43,16 +43,16 @@ class PageLaluLintas : AppCompatActivity() {
         
         //Rambu Larangan
         dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_stop,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.putarbalik_kanan,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.putarbalik_kiri,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_motor,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_mobil,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.belok_kanan,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_stop,"Dilarang Berhenti atau Stop"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.putarbalik_kanan,"Dilarang Putar Balik ke arah Kanan"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.putarbalik_kiri,"Dilarang Putar Balik ke arah Kiri"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_motor,"Dilarang Masuk bagi Kendaraan Bermotor"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_mobil,"Dilarang Masuk bagi Kendaraan Mobil"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.belok_kanan,"Dilarang Berbelok ke Arah Kanan"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.belok_kiri,"Dilarang Berbelok ke Arah Kiri"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.mendahului,"Dilarang Mendahului Kendaraan lain Didepannya"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.semua_kendaraan,"Dilarang Masuk bagi Semua Kendaraan"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_pejalankaki,"Dilarang Masuk bagi Pejalan Kaki"))
 
 
         //RambuHimbauan

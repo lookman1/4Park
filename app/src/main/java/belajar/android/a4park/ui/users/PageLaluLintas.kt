@@ -43,12 +43,12 @@ class PageLaluLintas : AppCompatActivity() {
         
         //Rambu Larangan
         dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
-        dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_stop,"Dilarang Parkir"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.putarbalik_kanan,"Dilarang Parkir"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.putarbalik_kiri,"Dilarang Parkir"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_motor,"Dilarang Parkir"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.larangan_mobil,"Dilarang Parkir"))
+        dataRambuLarangan.add(ModelLarangan(R.drawable.belok_kanan,"Dilarang Parkir"))
         dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
         dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))
         dataRambuLarangan.add(ModelLarangan(R.drawable.parkir,"Dilarang Parkir"))

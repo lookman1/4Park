@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">4Park</string>
+    <string name="rambu_peringatan">Rambu ini berisi peringatan bagi para pengguna jalan bahwa di depannya ada sesuatu yang berbahaya. Rambu ini didesain dengan latar kuning dan gambar atau tulisan berwarna hitam.</string>
+    <string name="rambu_larangan">Rambu lalu lintas larangan adalah rambu yang digunakan untuk menyatakan suatu perbuatan yang dilarang dilakukan oleh pengguna jalan.</string>
+    <string name="rambu_perintah">Rambu ini adalah rambu yang mewajibkan kita untuk melakukan apa yang diperintahkan rambu tersebut.</string>
+    <string name="txAturanMengemudi">1. Kewaspadaan \n2. Jangan Mengemudi Saat Emosi
+        \n3. Jangan mengemudi sambil menggunakan\n          handphone
+        \n4. Jangan mengemudi di bawah pengaruh alkohol
+        \n5. Jangan makan saat mengemudi
+        \n6. Selalu mengenakan sabuk pengaman atau helm\n            ataupun alat keamanan lainnya</string>
+</resources>

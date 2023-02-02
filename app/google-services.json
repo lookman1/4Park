@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "523755743339",
+    "project_id": "park-8f5b0",
+    "storage_bucket": "park-8f5b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523755743339:android:9870a4a3c4011cd0a2292e",
+        "android_client_info": {
+          "package_name": "belajar.android.a4park"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523755743339-setsnc0jvb55oj1kis9jjeq0h38l8da7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZLApH4pz6xvpUcCs5AIP4eROnuXRWjqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523755743339-setsnc0jvb55oj1kis9jjeq0h38l8da7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

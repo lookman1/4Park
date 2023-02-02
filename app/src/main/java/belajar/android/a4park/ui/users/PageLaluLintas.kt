@@ -32,13 +32,13 @@ class PageLaluLintas : AppCompatActivity() {
         dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Zebra Cross"))
         dataRambuPeringatan.add(ModelPeringatan(R.drawable.tanjakan,"Tanjakan Terjal"))
         dataRambuPeringatan.add(ModelPeringatan(R.drawable.turunan,"Turunan Curam"))
-        dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Penyempitan jalan di jembatan"))
-        dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Hati Hati Ada Penyebrang"))
-        dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Hati Hati Ada Penyebrang"))
-        dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Hati Hati Ada Penyebrang"))
-        dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Hati Hati Ada Penyebrang"))
-        dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Hati Hati Ada Penyebrang"))
-        dataRambuPeringatan.add(ModelPeringatan(R.drawable.zebra_cross,"Hati Hati Ada Penyebrang"))
+        dataRambuPeringatan.add(ModelPeringatan(R.drawable.penyempitan,"Penyempitan Jalam di Jembatan"))
+        dataRambuPeringatan.add(ModelPeringatan(R.drawable.tikungankanan,"Hati-hati Tikungan Kekanan"))
+        dataRambuPeringatan.add(ModelPeringatan(R.drawable.tikungankiri,"Hati-hati Tikungan Kekiri"))
+        dataRambuPeringatan.add(ModelPeringatan(R.drawable.tikungantajam,"Hati-hati Tikungan Tajam"))
+        dataRambuPeringatan.add(ModelPeringatan(R.drawable.jalancembung,"Jalan Cembung"))
+        dataRambuPeringatan.add(ModelPeringatan(R.drawable.jalanlicin,"Jalan Licin"))
+        dataRambuPeringatan.add(ModelPeringatan(R.drawable.longsor,"Jalan Rawan Longsor"))
 
         
         //Rambu Larangan
@@ -57,15 +57,16 @@ class PageLaluLintas : AppCompatActivity() {
 
         //RambuHimbauan
         dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
-        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalur,"Gunakan Jalur Kanan"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalurkiri,"Gunakan Jalur Kiri"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.muter,"Ikuti Arah yang Ditentukan Pada Bundaran"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.arahkanan,"Gunakan Arah Kiri"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.arahkiri,"Gunakan Arah Kanan "))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.lurus,"Lurus Terus"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.luruskanan,"Lurus Atau Kanan"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.luruskiri,"Lurus Atau Kiri"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.belokkanan,"Belok Kanan"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.belokkiri,"Belok Kiri"))
+        dataRambuHimbauan.add(ModelHimbauan(R.drawable.jalurpejalankaki,"Jalur Khusus Pejalan Kaki"))
 
         //--------------------------------------------------------------------------//
         

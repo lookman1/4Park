@@ -39,7 +39,7 @@ class SignIn : AppCompatActivity() {
                         Toast.makeText(this,"Selamat datang", Toast.LENGTH_SHORT).show()
                         Toast.makeText(this,"Pencet tombol di kanan bawah untuk menambah data", Toast.LENGTH_LONG).show()
                     }else{
-                        Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Periksa kembali email atau password anda!", Toast.LENGTH_SHORT).show()
                     }
                 }
             }else{

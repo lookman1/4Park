@@ -47,31 +47,55 @@ class PageRegister : AppCompatActivity() {
         val nis = binding.dtNis.text.toString()
         val kelas = binding.dtKelas.text.toString()
         val noTlp = binding.dtTelepon.text.toString()
+        val status = false;
 
         val siswaMap = hashMapOf(
             "nama" to nama,
             "NIS" to nis,
             "kelas" to kelas,
-            "no Telepon" to noTlp
+            "noTelp" to noTlp,
+            "status" to status,
         )
 
-        db.collection("siswa")
-            .add(siswaMap)
-            .addOnSuccessListener { documentReference ->
+        val userId = FirebaseAuth.getInstance().currentUser!!.uid
+        db.collection("siswa").document(userId)
+            .set(siswaMap)
+            .addOnSuccessListener {
                 binding.dtNama.text.clear()
                 binding.dtNis.text.clear()
                 binding.dtKelas.text.clear()
                 binding.dtTelepon.text.clear()
-                Log.d("inib", "DocumentSnapshot written with ID: ${documentReference.id}")
+                Log.d("upload", "berhasil ditambahkan")
                 val intent = Intent(this, Home::class.java)
                 Toast.makeText(this, "Data Berhasil Disimpan", Toast.LENGTH_SHORT).show()
                 startActivity(intent)
             }
             .addOnFailureListener { e ->
-                Log.w("inib", "Error adding document", e)
+                Log.w("upload", "Error", e)
                 Toast.makeText(this, "Data Gagal Disimpan, Cek kembali kelengkapan data", Toast.LENGTH_SHORT).show()
-
             }
+
+
+
+
+//        TANPA DOCUMENT
+//        db.collection("siswa")
+//            .add(siswaMap)
+//            .addOnSuccessListener { documentReference ->
+//                binding.dtNama.text.clear()
+//                binding.dtNis.text.clear()
+//                binding.dtKelas.text.clear()
+//                binding.dtTelepon.text.clear()
+//                Log.d("inib", "DocumentSnapshot written with ID: ${documentReference.id}")
+//                val intent = Intent(this, Home::class.java)
+//                Toast.makeText(this, "Data Berhasil Disimpan", Toast.LENGTH_SHORT).show()
+//                startActivity(intent)
+//            }
+//            .addOnFailureListener { e ->
+//                Log.w("inib", "Error adding document", e)
+//                Toast.makeText(this, "Data Gagal Disimpan, Cek kembali kelengkapan data", Toast.LENGTH_SHORT).show()
+//
+//            }
     }
 
     private fun uploadImage() {
